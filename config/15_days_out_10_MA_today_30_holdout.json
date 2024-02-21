@@ -1,0 +1,12 @@
+{
+
+    "forecast_out": 15,
+    "forecast_mean_trailing_days": 10,
+    "forecast_root_col": "LogadjClose",
+    "forecast_col": "{forecast_root_col}_{forecast_mean_trailing_days}_rolling_mean",
+    "num_training_samples": 30000,
+    "classify_confidence_threshold_up": 0.75,
+    "classify_confidence_threshold_down": 0.70,
+    "classify_change_threshold_ratio_up": 0.004,
+    "classify_change_threshold_ratio_down": -0.004
+}
